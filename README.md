@@ -42,3 +42,9 @@ there are two popular http2 plugins for nodejs, `http2`and`spdy`.Here we use `sp
 npm install spdy --save
 ```
 
+## comparison
+the following two pic can show the difference between http2 and http.
+http2 can download mutliply pic in one request. If you need to load huge number of pic, http2 is a great choice. However, I havn't know yet why the TTFB time in http2 is longer than http. 
+
+![http2](./readmeIMG/1.png)
+![http](./readmeIMG/2.png)
